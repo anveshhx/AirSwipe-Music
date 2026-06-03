@@ -98,7 +98,7 @@ AirSwipe/
 Clone the repository:
 
 ```bash
-git clone <your-github-link>
+git clone https://github.com/anveshhx/AirSwipe-Music/tree/main
 cd AirSwipe
 ```
 
