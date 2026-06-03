@@ -21,13 +21,29 @@ Built using Python, OpenCV, and MediaPipe, AirSwipe Music translates hand moveme
 
 ## Gesture Controls
 
-| Gesture          | Action             |
-| ---------------- | ------------------ |
-| Open Palm (Hold) | Play / Pause Music |
-| Swipe Right      | Next Track         |
-| Swipe Left       | Previous Track     |
-| Peace Sign Up    | Volume Up          |
-| Peace Sign Down  | Volume Down        |
+| Gesture                   | Action             |
+| ------------------------- | ------------------ |
+| ✋ Open Palm (hold)        | Play / Pause Music |
+| 🫱 Swipe Right            | Next Track         |
+| 🫱 Swipe Left             | Previous Track     |
+| ✌️ Peace Sign + Move Up   | Volume Up          |
+| ✌️ Peace Sign + Move Down | Volume Down        |
+
+---
+
+## 📸 Screenshots
+
+### Main Interface
+![Main UI](screenshots/main_ui.jpg)
+
+### ✌️ Volume Up Gesture
+![Volume Up](screenshots/volume_up.jpg)
+
+### 👈 Previous Song Gesture
+![Previous Song](screenshots/previous_song.jpg)
+
+### ✋ Play / Pause Gesture
+![Play Pause](screenshots/play_pause.jpg)
 
 ---
 
