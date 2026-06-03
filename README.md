@@ -48,8 +48,8 @@ Built using Python, OpenCV, and MediaPipe, AirSwipe eliminates the need for phys
 | Gesture                   | Action             |
 | ------------------------- | ------------------ |
 | ✋ Open Palm (hold)        | Play / Pause Music |
-| 👉 Swipe Right            | Next Track         |
-| 👈 Swipe Left             | Previous Track     |
+| 🫱 Swipe Right            | Next Track         |
+| 🫲 Swipe Left             | Previous Track     |
 | ✌️ Peace Sign + Move Up   | Volume Up          |
 | ✌️ Peace Sign + Move Down | Volume Down        |
 
