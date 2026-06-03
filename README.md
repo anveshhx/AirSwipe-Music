@@ -31,28 +31,30 @@ Built using Python, OpenCV, and MediaPipe, AirSwipe eliminates the need for phys
 * Volume Up control
 * Volume Down control
 
-### Version 5 (Final Release)
+## Version 5 (Final Version)
 
-* Complete gesture-based music controller
-* Glassmorphism-inspired interface
-* Spotify media integration
-* Live song title display
-* Artist information display
-* Playback progress tracking
-* Modern dashboard layout
-* Real-time gesture feedback
+* Added a modern on-screen user interface overlay
+* Integrated real-time Spotify song and artist display
+* Added playback progress tracking
+* Added gesture status notifications
+* Improved overall visual experience and usability
+* Enhanced project structure and code organization
+* Combined computer vision controls with live media information into a single application
 
 ---
 
-## Supported Gestures
+## Gesture Controls
 
-| Gesture                | Action        |
-| ---------------------- | ------------- |
-| Swipe Right            | Next Song     |
-| Swipe Left             | Previous Song |
-| Open Palm (Hold)       | Play / Pause  |
-| Peace Sign + Move Up   | Volume Up     |
-| Peace Sign + Move Down | Volume Down   |
+| Gesture                   | Action             |
+| ------------------------- | ------------------ |
+| ✋ Open Palm (hold)        | Play / Pause Music |
+| 👉 Swipe Right            | Next Track         |
+| 👈 Swipe Left             | Previous Track     |
+| ✌️ Peace Sign + Move Up   | Volume Up          |
+| ✌️ Peace Sign + Move Down | Volume Down        |
+
+
+
 
 ---
 
