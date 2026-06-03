@@ -33,21 +33,31 @@ Built using Python, OpenCV, and MediaPipe, AirSwipe Music translates hand moveme
 
 ## 📸 Screenshots
 
-### Main Interface
+<table>
+<tr>
+<td align="center">
+<b>Main Interface</b><br><br>
+<img src="Screenshots/main_ui.jpeg" width="400">
+</td>
 
-![Main UI](Screenshots/main_ui.jpeg)
+<td align="center">
+<b>✌️ Volume Up Gesture</b><br><br>
+<img src="Screenshots/volume_up.jpeg" width="400">
+</td>
+</tr>
 
-### ✌️ Volume Up Gesture
+<tr>
+<td align="center">
+<b>👈 Previous Song Gesture</b><br><br>
+<img src="Screenshots/previous_song.jpeg" width="400">
+</td>
 
-![Volume Up](Screenshots/volume_up.jpeg)
-
-### 👈 Previous Song Gesture
-
-![Previous Song](Screenshots/previous_song.jpeg)
-
-### ✋ Play / Pause Gesture
-
-![Play Pause](Screenshots/play_pause.jpeg)
+<td align="center">
+<b>✋ Play / Pause Gesture</b><br><br>
+<img src="Screenshots/play_pause.jpeg" width="400">
+</td>
+</tr>
+</table>
 
 ---
 
