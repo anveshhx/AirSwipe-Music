@@ -1,60 +1,70 @@
-# AirSwipe Music
+# 🎵 AirSwipe Music
 
-A computer vision based gesture-controlled music system that allows users to control media playback using hand gestures captured through a webcam.
+A computer vision-based gesture-controlled music system that enables users to control media playback through hand gestures captured by a webcam.
 
-Built using Python, OpenCV, and MediaPipe, AirSwipe eliminates the need for physical interaction by translating hand movements into media commands in real time.
+Built using Python, OpenCV, and MediaPipe, AirSwipe Music translates hand movements into media commands in real time, providing a touchless and intuitive user experience.
 
 ---
 
 ## Features
 
-### Version 1
-
-* Hand detection using MediaPipe
-* Real-time webcam tracking
-
-### Version 2
-
-* Swipe gesture recognition
-* Next Track
-* Previous Track
-
-### Version 3
-
-* Open palm detection
-* Play / Pause control
-* Gesture cooldown system
-
-### Version 4
-
-* Peace sign recognition
-* Volume Up control
-* Volume Down control
-
-## Version 5 (Final Version)
-
-* Added a modern on-screen user interface overlay
-* Integrated real-time Spotify song and artist display
-* Added playback progress tracking
-* Added gesture status notifications
-* Improved overall visual experience and usability
-* Enhanced project structure and code organization
-* Combined computer vision controls with live media information into a single application
+* Real-time hand gesture recognition using MediaPipe
+* Gesture-based music playback control
+* Play/Pause, Next Track, Previous Track, and Volume Control
+* Live Spotify song and artist display
+* Real-time playback progress tracking
+* Integrated user interface with gesture feedback
+* Structured development history across multiple versions
+* Application of Computer Vision and Human-Computer Interaction concepts
 
 ---
 
 ## Gesture Controls
 
-| Gesture                   | Action             |
-| ------------------------- | ------------------ |
-| ✋ Open Palm (hold)        | Play / Pause Music |
-| 🫱 Swipe Right            | Next Track         |
-| 🫲 Swipe Left             | Previous Track     |
-| ✌️ Peace Sign + Move Up   | Volume Up          |
-| ✌️ Peace Sign + Move Down | Volume Down        |
+| Gesture          | Action             |
+| ---------------- | ------------------ |
+| Open Palm (Hold) | Play / Pause Music |
+| Swipe Right      | Next Track         |
+| Swipe Left       | Previous Track     |
+| Peace Sign Up    | Volume Up          |
+| Peace Sign Down  | Volume Down        |
 
+---
 
+## Development Journey
 
+### V1 – Hand Tracking Foundation
+
+* Real-time hand detection using MediaPipe
+* Webcam-based gesture tracking
+
+### V2 – Swipe Gesture Controls
+
+* Swipe Right for next track navigation
+* Swipe Left for previous track navigation
+
+### V3 – Media Playback Control
+
+* Open Palm gesture detection
+* Play/Pause functionality
+* Gesture cooldown system for improved stability
+
+### V4 – Volume Control
+
+* Peace Sign gesture recognition
+* Volume increase control
+* Volume decrease control
+
+### V5 – Final Release
+
+* Complete gesture-controlled music system
+* Integrated user interface
+* Live Spotify integration
+* Real-time song and artist display
+* Playback progress tracking
+* Gesture feedback notifications
+* Improved usability and visual presentation
+* Enhanced project organization and maintainability
 
 ---
 
@@ -72,17 +82,17 @@ Built using Python, OpenCV, and MediaPipe, AirSwipe eliminates the need for phys
 ## Project Structure
 
 ```text
-AirSwipe/
+AirSwipe-Music/
 │
 ├── README.md
-├── requirements.txt
+├── Requirements.txt
 │
 ├── Versions/
 │   ├── airswipev1.py
 │   ├── airswipev2.py
 │   ├── airswipev3_stable.py
 │   ├── airswipev4.py
-│   └── AirSwipe_V5.py
+│   └── airswipe_v5_final.py
 │
 └── Experiments/
     ├── spotify_test.py
@@ -98,20 +108,20 @@ AirSwipe/
 Clone the repository:
 
 ```bash
-git clone https://github.com/anveshhx/AirSwipe-Music/tree/main
-cd AirSwipe
+git clone https://github.com/anveshhx/AirSwipe-Music.git
+cd AirSwipe-Music
 ```
 
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install -r Requirements.txt
 ```
 
-Run the application:
+Run the final version:
 
 ```bash
-python AirSwipe_V5.py
+python Versions/airswipe_v5_final.py
 ```
 
 ---
@@ -119,12 +129,24 @@ python AirSwipe_V5.py
 ## Future Improvements
 
 * Album artwork integration
-* Dynamic gesture customization
+* Customizable gesture mappings
 * Multi-hand support
-* Custom themes
-* Gesture analytics dashboard
-* Cross-platform support
-* Smart gesture calibration
+* Additional interface themes
+* Gesture analytics and usage insights
+* Cross-platform compatibility
+* Adaptive gesture calibration
+
+---
+
+## Demo
+
+Project demonstrations showcase:
+
+* Real-time hand tracking
+* Gesture-based media control
+* Spotify integration
+* Integrated user interface
+* Playback progress tracking
 
 ---
 
@@ -132,6 +154,6 @@ python AirSwipe_V5.py
 
 **Anvesh**
 
-Computer Vision • Python • AI Projects
+Computer Vision • Python • Artificial Intelligence
 
-Developed as a practical exploration of gesture recognition, human-computer interaction, and real-time media control using computer vision.
+Developed as an exploration of gesture recognition, human-computer interaction, real-time media control, and practical computer vision applications.
